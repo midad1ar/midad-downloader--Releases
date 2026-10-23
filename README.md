@@ -6,16 +6,20 @@
 
 ## التنزيل
 
-**[⬇ تنزيل أحدث إصدار (MidadDownloader.exe)](https://github.com/midad1ar/midad-downloader--Releases/releases/latest/download/MidadDownloader.exe)**
+**[⬇ تنزيل ملف التثبيت (MidadDownloader-Setup.exe)](https://github.com/midad1ar/midad-downloader--Releases/releases/latest/download/MidadDownloader-Setup.exe)**
 
 أو من صفحة [الإصدارات](https://github.com/midad1ar/midad-downloader--Releases/releases).
 
-- يعمل على Windows 10 و 11 (64 بت)، ولا يحتاج إلى تثبيت.
-- يحدّث نفسه تلقائيًا عند صدور إصدار جديد، دون فقدان الإعدادات أو السجل.
+- شغّل ملف التثبيت، وسيُثبَّت البرنامج مع **كل الأدوات التي يحتاجها** (yt-dlp و FFmpeg و Deno)، دون صلاحيات المسؤول.
+- تجده بعدها في قائمة ابدأ وعلى سطح المكتب، ويحدّث نفسه تلقائيًا عند صدور إصدار جديد دون فقدان الإعدادات أو السجل.
+- يعمل على Windows 10 و 11 (64 بت).
+- للإزالة: إعدادات Windows ← التطبيقات ← Midad Downloader ← إلغاء التثبيت (الفيديوهات التي نزّلتها لا تُحذف).
 
-## قبل التشغيل أول مرة
+> **تنبيه Windows:** البرنامج جديد وغير موقّع رقميًا، لذلك قد تظهر رسالة «Windows protected your PC» عند تشغيل ملف التثبيت أول مرة. اضغط **More info** ثم **Run anyway**.
 
-ضع هذه الأدوات المجانية بجانب `MidadDownloader.exe` (أو في مجلد `tools` بجانبه):
+## النسخة المحمولة (اختياري)
+
+يمكن أيضًا تشغيل [`MidadDownloader.exe`](https://github.com/midad1ar/midad-downloader--Releases/releases/latest/download/MidadDownloader.exe) وحده دون تثبيت. عندها ضع هذه الأدوات المجانية بجانبه (أو في مجلد `tools` بجانبه):
 
 | الأداة | وظيفتها | المصدر الرسمي |
 |---|---|---|
@@ -24,8 +28,6 @@
 | `deno.exe` | مطلوب لدعم YouTube الكامل | [Deno](https://github.com/denoland/deno/releases/latest) (`deno-x86_64-pc-windows-msvc.zip`) |
 
 يفحص البرنامج كل أداة ويعرض حالتها في الإعدادات.
-
-> **تنبيه Windows:** البرنامج جديد وغير موقّع رقميًا، لذلك قد تظهر رسالة «Windows protected your PC» عند تشغيله أول مرة. اضغط **More info** ثم **Run anyway**.
 
 ## المميزات
 
@@ -53,10 +55,11 @@
 
 A free Windows program to download video and audio from YouTube and other sites in high quality, with an Arabic and English interface.
 
-**[⬇ Download the latest version (MidadDownloader.exe)](https://github.com/midad1ar/midad-downloader--Releases/releases/latest/download/MidadDownloader.exe)** · [All releases](https://github.com/midad1ar/midad-downloader--Releases/releases)
+**[⬇ Download the installer (MidadDownloader-Setup.exe)](https://github.com/midad1ar/midad-downloader--Releases/releases/latest/download/MidadDownloader-Setup.exe)** · [All releases](https://github.com/midad1ar/midad-downloader--Releases/releases)
 
-- Windows 10 and 11 (64-bit), no installation needed. It updates itself when a new version is released, keeping your settings and history.
-- Put `yt-dlp.exe`, `ffmpeg.exe` + `ffprobe.exe` and `deno.exe` next to the program (or in a `tools` folder); see the table above for the official downloads.
+- Windows 10 and 11 (64-bit). It updates itself when a new version is released, keeping your settings and history.
+- The installer includes everything the program needs (yt-dlp, FFmpeg and Deno) and needs no administrator rights. Uninstall it from Windows Settings → Apps; your downloads are kept.
+- Portable use: run `MidadDownloader.exe` alone and put `yt-dlp.exe`, `ffmpeg.exe` + `ffprobe.exe` and `deno.exe` next to it (see the table above).
 - Windows may show "Windows protected your PC" the first time (the program is not code-signed yet): choose **More info** → **Run anyway**.
 
 **Support the program:** [Creators](https://creators.sa/ihabcogaming) • [Streamlabs](https://streamlabs.com/ihabcogaming1/tip)
