@@ -37,6 +37,10 @@
 - قوائم التشغيل، وعدة روابط معًا، والإيقاف المؤقت والاستئناف.
 - متابعة القنوات: تنزيل الفيديوهات الجديدة تلقائيًا، حتى والبرنامج يعمل في الخلفية بجانب الساعة.
 - ضغط الفيديو لواتساب والبريد، والوضع النهاري والليلي.
+- **ترجمة عربية ثابتة للواتساب:** تُطبع الترجمة العربية على الصورة فتظهر في واتساب وكل الجوالات.
+- **إرسال إلى الجوال:** صوّر رمز QR لينزل الملف على جوالك عبر شبكة البيت، دون كابل.
+- **زر «⬇ Midad» في المتصفح:** ضغطة في صفحة أي فيديو تفتح البرنامج والرابط جاهز.
+- **جدولة التنزيل:** يبدأ التنزيل وحده في الوقت الذي تختاره، مثل منتصف الليل.
 
 ## ادعم البرنامج ❤
 
@@ -59,6 +63,7 @@ A free Windows program to download video and audio from YouTube and other sites 
 
 - Windows 10 and 11 (64-bit). It updates itself when a new version is released, keeping your settings and history.
 - The installer includes everything the program needs (yt-dlp, FFmpeg and Deno) and needs no administrator rights. Uninstall it from Windows Settings → Apps; your downloads are kept.
+- New in 1.3: Arabic subtitles burned into the picture for WhatsApp, send to phone with a QR code, a "⬇ Midad" browser button, and scheduled downloads.
 - Portable use: run `MidadDownloader.exe` alone and put `yt-dlp.exe`, `ffmpeg.exe` + `ffprobe.exe` and `deno.exe` next to it (see the table above).
 - Windows may show "Windows protected your PC" the first time (the program is not code-signed yet): choose **More info** → **Run anyway**.
 
